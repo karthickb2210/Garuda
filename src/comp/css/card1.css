@@ -1,0 +1,69 @@
+.card {
+    
+    margin-top: 110px;
+    margin-left: 150px;
+    margin-right: 100px;
+    --bg: #f7f7f8;
+    --hover-text: #131313;
+    max-width: 45ch;
+    text-align: center;
+    background: url("https://t4.ftcdn.net/jpg/04/51/54/95/240_F_451549576_VWZsIdGXn5aNEsVnWMB4xfniuNypBX9K.jpg");
+    padding: 1.5em;
+    padding-block: 1.8em;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em; 
+    padding-bottom: 108px;    
+    padding-top: 108px;    
+    padding-right: 160px;    
+    padding-left: 160px;
+  }
+  
+  
+  
+  .card > :not(button) {
+    transition: .3s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .card button {
+    font-size: 2rem;
+    position: absolute;
+    inset: 0;
+    margin-top: 95px;
+    margin-left: 100px;
+    width: 35%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    color: var(--hover-text);
+    border-radius: 5px;
+    font-weight: bold;
+                          
+    top: 100%;
+    transition: all .4s cubic-bezier(.6,.4,0,1);
+  }
+  
+  .card:hover button {
+    top: 0;
+    font-size: 1.2em;
+  }
+  
+  .card:hover {
+    background-image: url("https://t4.ftcdn.net/jpg/03/00/94/69/240_F_300946931_kSR84OqudEhsmBZH47HU6ud7aZIDMjEx.jpg")
+  }
+  
+  .card:hover>div,.card:hover>strong {
+    opacity: 0;
+  }
+  .bgc3{
+    background-image: url("https://t3.ftcdn.net/jpg/01/63/78/58/240_F_163785814_bipnPApA8asIAOaR5pSS0hi0B80Z54BW.jpg");
+  }
+  .cdb{
+    background-image: url("https://t4.ftcdn.net/jpg/03/62/12/07/240_F_362120798_OOUm0PWqLPDjAdxpnfT2zeKIlgdacwVr.jpg");
+  }
+  .bgc4{
+    background-image: url("https://t4.ftcdn.net/jpg/01/22/95/85/240_F_122958598_9xtT2NM6vUWbC0rm8DQctx3KTcWc0o80.jpg");
+  }
